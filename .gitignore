@@ -12,6 +12,7 @@ public/typo3conf/realurl_fixedPostVars_conf.php
 public/fileadmin/*
 public/index.php
 public/typo3
+public/typo3conf/ext/
 !public/fileadmin/example_content/
 !public/fileadmin/templates/
 !public/fileadmin/custom/
