@@ -1,0 +1,67 @@
+{
+	"name": "hojalatheef/typo3-7lts",
+	"description": "TYPO3 7 LTS based on t3kit distribution.",
+	"license": "GPL-2.0-or-later",
+	"type": "project",
+	"require": {
+		"typo3/cms": "^7.6",
+		"typo3/cms-composer-installers": "^1.2.8",
+		"kaystrobach/dyncss": "0.7.9",
+		"clickstorm/go_maps_ext": "1.9.1",
+		"gridelementsteam/gridelements": "7.0.5",
+		"georgringer/news": "6.3.0",
+		"pixelant/pxa-cookie-bar": "1.0.8",
+		"pixelant/pxa-form-enhancement": "v2.0.0",
+		"pixelant/pxa-newsletter-subscription": "v4.0.3",
+		"dmitryd/typo3-realurl": "2.6.3",
+		"svewap/realurl-404-multilingual": "1.0.10",
+		"b13/seo_basics": "0.9.1",
+		"apache-solr-for-typo3/solr": "5.1.0",
+		"sjbr/static-info-tables": "6.5.1",
+		"t3kit/t3kit-extension-tools": "1.2.0",
+		"t3kit/theme-t3kit": "1.10.2",
+		"t3kit/theme-t3kit-bluemountain": "1.1.0",
+		"typo3-themes/themes": "7.0.3",
+		"patrickbroens/url-forwarding": "1.2.0",
+		"kaystrobach/yaml-parser": "1.0.2",
+		"kaystrobach/dyncss-less": "0.7.9",
+		"typo3-ter/guide": "1.1.0",
+		"hojalatheef/sitepackage": "7.6.0"
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://composer.typo3.org/"
+		},
+		{
+			"type": "path",
+			"url": "./Source/Extension/*",
+			"options": {
+				"reference": "none",
+				"versions": {
+					"hojalatheef/sitepackage": "7.6.0",
+					"pixelant/pxa-cookie-bar": "1.0.8",
+					"sjbr/static-info-tables": "6.5.1",
+					"t3kit/t3kit-extension-tools": "1.2.0",
+					"t3kit/theme-t3kit": "1.10.2",
+					"t3kit/theme-t3kit-bluemountain": "1.1.0",
+					"kaystrobach/yaml-parser": "1.0.2",
+					"kaystrobach/dyncss-less": "0.7.9",
+					"typo3-ter/guide": "1.1.0"
+				}
+			}
+		}
+	],
+	"extra": {
+		"typo3/cms": {
+			"cms-package-dir": "{$vendor-dir}/typo3/cms",
+			"web-dir": "public"
+		}
+	},
+	"config": {
+		"allow-plugins": {
+			"typo3/cms-composer-installers": true,
+			"typo3/class-alias-loader": true
+		}
+	}
+}
