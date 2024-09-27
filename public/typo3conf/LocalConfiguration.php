@@ -8,11 +8,11 @@ return [
         'versionNumberInFilename' => '0',
     ],
     'DB' => [
-        'database' => 't3kit',
-        'host' => 'localhost',
-        'password' => 't3kit1234',
+        'database' => 'db',
+        'host' => 'db',
+        'password' => 'db',
         'socket' => '',
-        'username' => 't3kit',
+        'username' => 'db',
     ],
     'EXT' => [
         'extConf' => [
@@ -88,6 +88,7 @@ return [
         'transport_sendmail_command' => '/usr/bin/env catchmail -f test@local.dev',
     ],
     'SYS' => [
+        'trustedHostsPattern' => '.*',
         'UTF8filesystem' => '1',
         'caching' => [
             'cacheConfigurations' => [

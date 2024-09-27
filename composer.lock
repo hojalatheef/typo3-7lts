@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8556afa83d29e1bfcfac590ac7e310ed",
+    "content-hash": "9f076adf18157435a06d563ec4d2c226",
     "packages": [
         {
             "name": "apache-solr-for-typo3/solr",
@@ -1687,17 +1687,11 @@
         },
         {
             "name": "typo3-themes/themes",
-            "version": "7.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/typo3-themes/themes.git",
-                "reference": "74a772305cad8f613429a66774d4fb583b4442c6"
-            },
+            "version": "7.0.4",
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/typo3-themes/themes/zipball/74a772305cad8f613429a66774d4fb583b4442c6",
-                "reference": "74a772305cad8f613429a66774d4fb583b4442c6",
-                "shasum": ""
+                "type": "path",
+                "url": "./Source/Extension/themes",
+                "reference": "c973d2dcc05deef126524351fa7daf6e0c1953fc"
             },
             "require": {
                 "typo3/cms-core": "~7.6.0|<8.0"
@@ -1715,20 +1709,31 @@
                     "KayStrobach\\Themes\\": "Classes/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "KayStrobach\\Themes\\Tests\\": "tests/"
+                }
+            },
             "license": [
                 "GPL-2.0+"
             ],
             "description": "TYPO3 THEMES",
             "homepage": "http://typo3-themes.org",
             "keywords": [
+                "CUSTOMIZE",
+                "FLUID",
+                "THEMES",
+                "THEMES",
                 "TYPO3 CMS",
-                "TYPO3 THEMES",
-                "customize",
-                "fluid",
-                "themes"
+                "TYPO3 THEMES"
             ],
-            "time": "2016-07-22T08:40:00+00:00"
+            "support": {
+                "issues": "https://github.com/typo3-themes/themes/issues"
+            },
+            "transport-options": {
+                "reference": "none",
+                "relative": true
+            }
         },
         {
             "name": "typo3/class-alias-loader",

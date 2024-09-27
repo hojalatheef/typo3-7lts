@@ -109,5 +109,4 @@ switch (\TYPO3\CMS\Core\Utility\GeneralUtility::getApplicationContext()) {
         }
     break;
 }
-
 ?>

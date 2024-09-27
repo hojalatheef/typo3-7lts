@@ -22,3 +22,6 @@
 [submodule "Source/Extension/guide"]
 	path = Source/Extension/guide
 	url = git@github.com:hojalatheef/typo3-guide.git
+[submodule "Source/Extension/themes"]
+	path = Source/Extension/themes
+	url = git@github.com:hojalatheef/themes.git

@@ -21,7 +21,7 @@
 		"t3kit/t3kit-extension-tools": "1.2.0",
 		"t3kit/theme-t3kit": "1.10.2",
 		"t3kit/theme-t3kit-bluemountain": "1.1.0",
-		"typo3-themes/themes": "7.0.3",
+		"typo3-themes/themes": "7.0.4",
 		"patrickbroens/url-forwarding": "1.2.0",
 		"kaystrobach/yaml-parser": "1.0.2",
 		"kaystrobach/dyncss-less": "0.7.9",
@@ -47,7 +47,8 @@
 					"t3kit/theme-t3kit-bluemountain": "1.1.0",
 					"kaystrobach/yaml-parser": "1.0.2",
 					"kaystrobach/dyncss-less": "0.7.9",
-					"typo3-ter/guide": "1.1.0"
+					"typo3-ter/guide": "1.1.0",
+					"typo3-themes/themes": "7.0.4"
 				}
 			}
 		}
